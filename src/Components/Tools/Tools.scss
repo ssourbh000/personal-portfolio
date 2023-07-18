@@ -1,0 +1,31 @@
+
+.tools{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+    // background-color: bisque;
+
+    .tools-area{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        width: 70%;
+        // border: 1px solid black;
+        height: 60vh;
+
+        .tools-card{
+            border-radius: 10px;
+            margin: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+            img{
+                width: 150px;
+                height: 150px;
+                padding: 5px;
+            }
+            
+        }
+    }
+}

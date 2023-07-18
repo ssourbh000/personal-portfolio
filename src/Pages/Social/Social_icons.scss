@@ -1,0 +1,27 @@
+.social-media-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 10px 30px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+
+    &:hover {
+        cursor: pointer;
+        // background-color: black;
+        // color: white;
+        transform: scale(1.2);
+        transition: 0.3s ease-in;
+    }
+
+
+    img{
+        width: 30px;
+        height: 30px;
+    }
+
+
+    
+}

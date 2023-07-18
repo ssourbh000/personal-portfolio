@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.App{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #d0ced6;
+
+    main{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        width: 100%;
+
+
+        .page{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+            min-height: 100vh;
+            width: 70%;
+            // background-color: aqua;
+        }
+
+        #about{
+            min-height: 80vh;
+        }
+
+
+        .social-media{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 30px;
+            margin-left: 5%;
+            // margin-top: 20px;
+            height: 50vh;
+            // border: 1px solid #000000;
+
+            .social-text{
+                font-size: 25px;
+                font-weight: bold;
+                margin-bottom: 20px;
+            }
+
+            .social-links{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                align-items: center;
+                // cursor: pointer;
+                padding: 60px;
+                
+            }
+
+            
+        }
+    }
+
+    
+}
+
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 100px;
+    background-color: rgb(26, 26, 26);
+}
+
+root{
+    $color-black : rgb(36, 35, 35);
+    $color-grey : #d0ced6;
+}
