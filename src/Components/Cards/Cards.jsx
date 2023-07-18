@@ -1,4 +1,5 @@
 import { useState } from "react";
+// import '../Cards/Cards.scss'
 
 
 const ImageSlider = ({ slides }) => {
@@ -17,7 +18,7 @@ const ImageSlider = ({ slides }) => {
     backgroundSize: "cover",
     backgroundPosition: "center",
     backgroundImage: `url(${slides[currentIndex].url})`,
-    filter: "grayscale(80%)",
+    filter: "grayscale(90%)",
   
   };
   
@@ -79,7 +80,7 @@ const ImageSlider = ({ slides }) => {
   // };
 
   return (
-    <div style={sliderStyles}>
+    <div id='overlay' style={sliderStyles}>
       <div>
         <div onClick={goToPrevious} style={leftArrowStyles}>
           ❰

@@ -16,23 +16,19 @@ export const links = [
     },
     {
       id: 4,
+      text: 'Tools',
+      url: '#Tools',
+    },
+    {
+      id: 5,
       text: 'Projects',
       url: '#Projects',
     },
     {
-      id: 5,
+      id: 6,
       text: 'Contact',
       url: '#Contact',
     },
-    // {
-    // id: 6,
-    // text: 'About',
-    // url: '#About',
-    // },
-    // {
-    // id: 7,
-    // text: 'Contact Us',
-    // url: '#Contact-Us',
-    // },
+    
     
   ]

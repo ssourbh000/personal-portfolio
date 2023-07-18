@@ -1,3 +1,6 @@
+$secondary-color: #22223b;
+$base-color: #9a8c98;
+
 header{
     position :fixed;
     top: 0;
@@ -7,22 +10,22 @@ header{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(36, 35, 35);
+    background-color: $secondary-color;
     
 
     .logo{
         // display: flex;
         // gap: 10px;
-        color: aliceblue;
+        color: $base-color;
         // justify-content: center;
         // align-items: center;
 
-        &:hover{
-            color: black;
-            background-color: aliceblue;
-            border-radius: 20px;
-            padding: 0px 10px; 
-        }
+        // &:hover{
+        //     color: black;
+        //     background-color: aliceblue;
+        //     border-radius: 20px;
+        //     padding: 0px 10px; 
+        // }
 
         h3{
             font-size: 30px;
@@ -36,7 +39,7 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        color: aliceblue;
+        // color: $base-color;
         cursor: pointer;
 
         li{
@@ -47,7 +50,7 @@ header{
 
         a{
             text-decoration: none;
-            color: aliceblue;
+            color: $base-color;
         }
 
         &:hover{
