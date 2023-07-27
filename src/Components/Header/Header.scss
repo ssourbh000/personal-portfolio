@@ -1,68 +1,108 @@
 $secondary-color: #22223b;
 $base-color: #9a8c98;
 
-header{
-    position :fixed;
-    top: 0;
-    width: 100%;
-    padding: 12px 30px;
-    z-index: 1;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    background-color: $secondary-color;
+#navBar{
+    background-color: $secondary-color !important;
     
 
-    .logo{
-        // display: flex;
-        // gap: 10px;
+    #nameLogo{
         color: $base-color;
-        // justify-content: center;
-        // align-items: center;
-
-        // &:hover{
-        //     color: black;
-        //     background-color: aliceblue;
-        //     border-radius: 20px;
-        //     padding: 0px 10px; 
-        // }
-
-        h3{
-            font-size: 30px;
-            letter-spacing: 3px;
-        }
-
+        font-weight: bolder;
     }
 
-
-    .nav ul{
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        // color: $base-color;
-        cursor: pointer;
-
-        li{
-            display: flex;
-            padding: 10px 20px;
-            font-size: 1.3em;
-        }
-
-        a{
-            text-decoration: none;
-            color: $base-color;
-        }
-
-        &:hover{
-            color: #635f5f;
-        }
+    #linebtn{
+        background-color: #9a8c98;
     }
 
-    &:hover a:hover{
-        color: #ccc;
-        box-shadow: 0 2px 0 0 currentColor ;
+    #navbarNav{
+
+        #navbar-nav{
+            float: right !important;
+            
+            li{
+                text-decoration: none;
+                color: #9a8c98 !important;
+                background-color: aqua;
+            }
+        }
     }
     
-   
 }
 
+
+
+// header{
+//     position :fixed;
+//     top: 0;
+//     width: 100%;
+//     // padding: 12px 30px;
+//     z-index: 1;
+//     display: flex;
+//     justify-content: space-evenly;
+//     align-items: center;
+//     background-color: $secondary-color;
+    
+
+//     .logo{
+//         // display: flex;
+//         // gap: 10px;
+//         color: $base-color;
+//         // justify-content: center;
+//         // align-items: center;
+
+//         // &:hover{
+//         //     color: black;
+//         //     background-color: aliceblue;
+//         //     border-radius: 20px;
+//         //     padding: 0px 10px; 
+//         // }
+
+//         h3{
+            
+//             font-size: 30px;
+//             letter-spacing: 3px;
+//         }
+
+//     }
+
+
+//     .nav ul{
+//         display: flex;
+//         justify-content: space-between;
+//         align-items: center;
+//         // color: $base-color;
+//         cursor: pointer;
+
+//         li{
+//             display: flex;
+//             padding: 10px 20px;
+//             font-size: 1.3em;
+//         }
+
+//         a{
+//             text-decoration: none;
+//             color: $base-color;
+//         }
+
+//         &:hover{
+//             color: #635f5f;
+//         }
+//     }
+
+//     &:hover a:hover{
+//         color: #ccc;
+//         box-shadow: 0 2px 0 0 currentColor ;
+//     }
+    
+   
+// }
+
+
+// // @media screen and ( max-width: 460px ){
+
+// //     header{
+// //         display: none;
+// //     }
+
+    
+// // }

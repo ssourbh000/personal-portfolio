@@ -2,32 +2,32 @@ export const links = [
     {
       id: 1,
       text: 'Home',
-      url: '#Home',
+      url: '#home',
     },
     {
       id: 2,
       text: 'About',
-      url: '#About',
+      url: '#about',
     },
     {
       id: 3,
       text: 'Skills',
-      url: '#Skills',
+      url: '#skills',
     },
     {
       id: 4,
       text: 'Tools',
-      url: '#Tools',
+      url: '#tools',
     },
     {
       id: 5,
       text: 'Projects',
-      url: '#Projects',
+      url: '#projects',
     },
     {
       id: 6,
       text: 'Contact',
-      url: '#Contact',
+      url: '#socials',
     },
     
     

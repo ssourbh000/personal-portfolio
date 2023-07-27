@@ -1,10 +1,42 @@
-.project{
-    width: 70%;
-    height: 70vh;
-    margin: 0 auto; 
+#projects{
+    height: 90vh;
+    margin-top: 5vh;
 
-    h1{
-        text-Align: center;
-        margin-Bottom: 40px;
+    #projectCenter{
+        display: flex;
+        justify-content: center;
+
+        #projectText{
+            text-align: center;
+            margin-bottom: 10vh;
+            font-weight: bold;
+        }
+    
+        .projectArea{
+            height: 70vh;
+            
+        }
+
+    }
+
+    
+}
+
+
+@media screen and (width<450px){
+    #projects{
+        height: 75vh;
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+    
+        #projectText{
+            text-align: center;
+        }
+    
+        .projectArea{
+            margin-top: -20vh;
+            width: 400px;
+            // height: 40vh;
+        }
     }
 }

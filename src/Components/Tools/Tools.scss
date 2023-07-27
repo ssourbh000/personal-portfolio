@@ -1,37 +1,39 @@
-#Tools{
-    text-align: center;
-    margin-bottom: -50px;
+#tools{
+    height: 35vh;
+
+
+    #toolsHeading{
+        margin: 10vh;
+    }
+
+
+
+    #toolsIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        .toolCard{
+            width: 110px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            height: 100px;
+        }
+    }
 }
 
 
-.tools{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 40vh;
-    margin-top: 10%;
-    // background-color: bisque;
 
-    .tools-area{
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-start;
-        width: 70%;
-        // border: 1px solid black;
-        height: 60vh;
-
-        .tools-card{
-            border-radius: 10px;
-            margin: 10px;
-            box-shadow: rgba(34, 34, 59, 0.3) 0px 4px 12px;  //rgb(34, 34, 59)
-
-            img{
-                width: 150px;
-                height: 150px;
-                padding: 5px;
-            }
-            
+@media screen and (width<450px){
+    #tools{
+        height: 75vh;
+        
+        
+        #toolsIcon{
+            margin-right: 0px;
+            margin-left: 20px;
         }
+        
     }
 }

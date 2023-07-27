@@ -1,27 +1,112 @@
-.social-media-links{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin: 10px 30px;
-    padding: 10px 15px;
-    border-radius: 10px;
-    cursor: pointer;
-    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+#socials{
+    height: 40vh;
+    margin-top: 10vh;
 
-    &:hover {
-        cursor: pointer;
-        // background-color: black;
-        // color: white;
-        transform: scale(1.2);
-        transition: 0.3s ease-in;
+    #socialHeading{
+        margin: 10vh;
+
+        h1{
+            font-weight: bold;
+        }
     }
 
+    #socialIcon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
-    img{
-        width: 30px;
-        height: 30px;
+
+        #socialCard{
+            display: flex;
+            justify-content: center;
+            padding: 10px;
+            margin-left: 20px;
+            border-radius: 10px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+
+
+            #socialAnchor{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                text-decoration: none;
+                color: #000;
+                
+
+                h4{
+                    margin-left: 8px;
+                    font-weight: bold;
+                }
+            }
+        }
+
+
+        
     }
+}
+
+
+@media screen and (width < 450px){
+    #socials{
+        height: 80vh;
+        margin-top: -15vh;
+
+        #socialIcon{
+            display: flex;
+            margin-top: -10vh;
+
+            #socialCard{
+                width: 200px;
+                height: 60px;
+                padding: 0px;
+                margin-left: 0px;
+                margin-top: 25px;
+                border-radius: 10px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .social-media-links{
+//     display: flex;
+//     align-items: center;
+//     gap: 10px;
+//     margin: 10px 30px;
+//     padding: 10px 15px;
+//     border-radius: 10px;
+//     cursor: pointer;
+//     box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+
+//     &:hover {
+//         cursor: pointer;
+//         // background-color: black;
+//         // color: white;
+//         transform: scale(1.2);
+//         transition: 0.3s ease-in;
+//     }
+
+
+//     img{
+//         width: 30px;
+//         height: 30px;
+//     }
 
 
     
-}
+// }

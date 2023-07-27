@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import '../Cards/Cards.scss'
+import '../Cards/Cards.scss'
 
 
 const ImageSlider = ({ slides }) => {
@@ -15,11 +15,11 @@ const ImageSlider = ({ slides }) => {
     width: "100%",
     height: "100%",
     borderRadius: "10px",
-    backgroundSize: "cover",
+    backgroundSize: "contain",
     backgroundPosition: "center",
     backgroundImage: `url(${slides[currentIndex].url})`,
     filter: "grayscale(90%)",
-  
+    backgroundRepeat: "no-repeat",
   };
   
   const leftArrowStyles = {
@@ -80,16 +80,16 @@ const ImageSlider = ({ slides }) => {
   // };
 
   return (
-    <div id='overlay' style={sliderStyles}>
+    <div  style={sliderStyles}>
       <div>
-        <div onClick={goToPrevious} style={leftArrowStyles}>
+        <div onClick={goToPrevious} style={leftArrowStyles} id="left">
           ❰
         </div>
-        <div onClick={goToNext} style={rightArrowStyles}>
+        <div onClick={goToNext} style={rightArrowStyles} id="right">
           ❱
         </div>
       </div>
-      <div style={slideStyles} onClick={goToLink}></div>
+      <div style={slideStyles} onClick={goToLink} id='overlay' ></div>
 
 
       {/* <div style={dotsContainerStyles}>

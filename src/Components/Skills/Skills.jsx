@@ -12,20 +12,22 @@ const Skills = () => {
 
   return (
     <>
-      <h1 id="Skills">Skills</h1>
-      <div
-        className="skill"
-        data-aos="fade-up"
-        data-aos-anchor-placement="bottom-bottom"
-      >
-        <div className="skill-area">
-          {images.map((image) => (
-            <div className="skill-card">
-              <img src={image.src} alt="ok" />
-            </div>
-          ))}
+      <section id="skills">
+        <div className="container mt-5">
+          <div className="row text-center" id="skillHeading">
+            <h1>Skills</h1>
+          </div>
+          <div className="row" id="skillsIcon">
+            {images.map((image, i) => (
+              <div className="col col-lg-2 col-sm-6" key={i + 1}>
+                <div className="skillCard d-flex justify-content-center mb-5 mb-lg-0">
+                  <img src={image.src} alt="ok" style={{ width: "100px" }} />
+                </div>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      </section>
     </>
   );
 };

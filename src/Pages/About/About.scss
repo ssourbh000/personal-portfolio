@@ -1,38 +1,141 @@
-.about{
-    width: 100%;
-    height: 70vh;
+#about{
+    height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
 
     .name{
-        font-size: 2.5rem;
-        rotate: 270deg;
-        filter: drop-shadow(1px 2px  #22223b);
 
+        padding-top: 85px;
+    
         h1{
-            font-size: 2.5em;
-        }
-        span{
-            display: flex;
-            translate: 290px -60px;
-        }
-    }
-
-    .txt{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-        div{
-            margin: 20px;
-
-            h2{
-                margin-bottom: 2%;
-            }
-            
+            font-size: 5em;
+            rotate: 270deg;
         }
         
     }
+
+    .txt{
+        text-align: justify;
+
+
+        .about-me{
+
+            p{
+                line-height: 1.5em;
+                font-size: 1.2em ;
+            }
+        }
+
+
+        .education{
+            margin-top: 5vh;
+            
+            p{
+                line-height: 1.5em;
+                font-size: 1.2em ;
+            }
+        }
+
+    }
+
+
 }
+
+@media screen and (width < 450px) {
+    #about{
+        margin-top: 15vh;
+
+
+        .name{
+            padding-top: 0px;
+            text-align: center;
+
+            h1{
+                rotate: 0deg;
+                margin-top: 15vh;
+                margin: 20px;
+                font-size: 3.5em;
+            }
+        }
+
+
+        .txt{
+
+            .about-me{
+
+                h2{
+                    display: none;
+                }
+                p{
+                    font-size: 1em;
+                }
+            }
+
+            .education{
+
+                h2{
+                    font-weight: bold;
+                }
+                p{
+                    font-size: 1em;
+                }
+            }
+        }
+    }
+}
+
+
+
+// .about{
+//     width: 100%;
+//     height: 70vh;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     .name{
+//         font-size: 2.5rem;
+//         rotate: 270deg;
+//         filter: drop-shadow(1px 2px  #22223b);
+
+//         h1{
+//             font-size: 2.5em;
+//         }
+//         span{
+//             display: flex;
+//             translate: 290px -60px;
+//         }
+//     }
+
+//     .txt{
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         align-items: center;
+
+//         div{
+//             margin: 20px;
+
+//             h2{
+//                 margin-bottom: 2%;
+//             }
+            
+//         }
+        
+//     }
+// }
+
+
+// @media screen and ( max-width: 460px ){
+
+//     .about{
+//         display: block;
+
+//         .name{
+//             rotate: 0deg;
+//         }
+
+        
+//     }
+// } 
