@@ -29,8 +29,9 @@
 
 @media screen and (width<450px){
     #skills{
-        height: 75vh;
-        margin-top: 20vh;
+        display: block;
+        height: 85vh;
+        margin-top: 65vh;
 
         #skillsIcon{
             margin-right: 0px;

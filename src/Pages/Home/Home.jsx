@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <section id="home">
       <div className="container  mt-5 d-flex justify-content-center ">
-        <div className="row mt-5" id="glass">
+        <div className="row mt-5 align-items-center" id="glass">
           <div className="col-lg-6 col-sm-10 text-center mt-4" >
             
               <img src="myPic1.jpg" alt="img" width="80%" style={{borderRadius: "50%"}} id="myImg" />

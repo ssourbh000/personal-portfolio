@@ -1,34 +1,27 @@
-$secondary-color: #22223b;
-$base-color: #9a8c98;
+$text: #000000;
+$background: #ffffff;
+$primary: #b0c5f3;
+$secondary: #d5b5ee;
+$accent: #d41d6c;
 
-#navBar{
-    background-color: $secondary-color !important;
-    
 
-    #nameLogo{
-        color: $base-color;
-        font-weight: bolder;
-    }
-
-    #linebtn{
-        background-color: #9a8c98;
-    }
-
-    #navbarNav{
-
-        #navbar-nav{
-            float: right !important;
-            
-            li{
-                text-decoration: none;
-                color: #9a8c98 !important;
-                background-color: aqua;
-            }
-        }
-    }
-    
+.navbar-collapse {
+    flex-grow: 0 !important;
 }
 
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background: rgb(203,182,53);
+background: linear-gradient(90deg, rgba(203,182,53,0.5326505602240896) 17%, rgba(145,40,189,0.639093137254902) 55%, rgba(89,182,201,0.5494572829131652) 84%);
+    color: $text !important;
+}
+
+a{
+    color: $text !important;
+}
 
 
 // header{

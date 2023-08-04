@@ -4,6 +4,10 @@
 
     #toolsHeading{
         margin: 10vh;
+       
+        h1{
+            font-weight: bolder;
+        }
     }
 
 
@@ -19,6 +23,7 @@
             border-radius: 10px;
             box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
             height: 100px;
+            margin-left: 6vh;
         }
     }
 }
@@ -28,11 +33,16 @@
 @media screen and (width<450px){
     #tools{
         height: 75vh;
+        margin-top: 15vh;
         
         
         #toolsIcon{
             margin-right: 0px;
             margin-left: 20px;
+
+            .toolCard{
+            margin-left: 0;
+        }
         }
         
     }

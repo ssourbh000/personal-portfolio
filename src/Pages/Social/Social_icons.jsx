@@ -10,9 +10,9 @@ const Social_icons = () => {
     { id:5, src:"github.png", url:"https://github.com/ssourbh000", title: 'github'},
   ]
 
-  const handleClick = () => {
-    window.open(iconDetails.url , '_blank'); // Opens the link in a new tab/window
-  }
+  // const handleClick = () => {
+  //   window.open(iconDetails.url , '_blank'); // Opens the link in a new tab/window
+  // }
 
   return (
     <>
@@ -21,11 +21,11 @@ const Social_icons = () => {
           <div className="row text-center" id="socialHeading"> 
             <h1>Let's Connect</h1>
           </div>
-          <div className="row" id="socialIcon" onClick={handleClick}>
+          <div className="row" id="socialIcon" >
             
                 {iconDetails.map((iconDetail, id) => (
-                  <div className="col-lg-2" key={id}  id='socialCard'>
-                    <a href="#" id='socialAnchor'>
+                  <div className="col-lg-2" key={id}  id='socialCard' >
+                    <a href={iconDetail.url} id='socialAnchor'>
                       <img src={iconDetail.src} alt="ok" style={{ width: "50px" }} />
                       <h4>{iconDetail.title}</h4>
 

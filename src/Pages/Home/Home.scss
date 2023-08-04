@@ -1,8 +1,15 @@
+$text: #000000;
+$background: #ffffff;
+$primary: #b0c5f3;
+$secondary: #d5b5ee;
+$accent: #d41d6c;
+
 #home{
     height: 85vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #bee8f0;
 
     // #myImg{
     //     animation-name: 4s morph cubic-bezier(0.11,0.79,0.11,0.99) infinite;
@@ -22,7 +29,7 @@
         // border: 1px solid rgba(209, 213, 219, 0.3);
 
         .details{
-            margin-top: 180px;
+            // margin-top: 180px;
     
     
             .intro{
@@ -54,6 +61,8 @@
 
 @media screen and (width < 450px){
     #home{
+        height: 85vh;
+        margin-top: 10vh;
 
         img{
             margin-top: 15vh;
